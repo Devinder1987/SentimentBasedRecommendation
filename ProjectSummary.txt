@@ -1,0 +1,14 @@
+------- Project Summary ----------
+--Sentiment analysis Summary 
+	- Test data Accuracy
+		Logistic Regression accuracy 0.9630330698140
+		Random Forest Model accuracy 0.9677096091749249
+		XGBoost Model accuracy 0.967598262999666
+	Accuracy is very close in all three model. Random Forest is winner with very close margin. So we'll use Random Rorest
+
+--Recommendation System Summary
+	- rmse analysis
+		rmse for Item Based recommendation: 3.571158589545605
+		rmse for User Based recommendation: 2.5597195521751623
+Though both rmase is not upto mark here. But User Based recommendation is better. So we have pickled used Based recommendation prediction
+

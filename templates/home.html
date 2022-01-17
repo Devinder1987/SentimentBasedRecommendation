@@ -1,0 +1,22 @@
+<!doctype html>
+<title>Sentiment Based Product Recommendation System</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1>Sentiment Based Product Recommendation System</h1>
+  <h3>Sample Users</h3>
+  <ul>
+    <li>00dog3</li>
+    <li>00sab00</li>
+    <li>01impala</li>
+    <li>02dakota</li>
+    <li>02deuce</li>
+  </ul>
+  <form action="/recommendation" method="POST">
+    <label for="userId">Ender User-ID:</label>
+    <input type="text" name="userId" placeholder="User Name">
+    <br>
+    <input type="submit" value="Recommendation">
+  </form>
+  <hr>
+  {% block content %}{% endblock %}
+</div>
